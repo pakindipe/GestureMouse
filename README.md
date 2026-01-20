@@ -82,6 +82,7 @@ Built entirely in **Python** using **computer vision and intelligent intent dete
 ```bash
 git clone https://github.com/pakindipe/GestureMouse.git
 cd GestureMouse
+```
 2️⃣ Create & activate virtual environment
 python -m venv venv
 
