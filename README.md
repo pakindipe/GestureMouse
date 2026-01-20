@@ -7,6 +7,8 @@ This project explores **gesture-based human–computer interaction (HCI)** by tr
 
 Built entirely in **Python** using **computer vision and intelligent intent detection**.
 
+<img width="1279" height="774" alt="image" src="https://github.com/user-attachments/assets/5e82c549-a196-4023-88af-fe9a7517f0f1" />
+
 ---
 
 ## Features
