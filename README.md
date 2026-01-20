@@ -1,7 +1,7 @@
 # Gesture Mouse Control  
 **AI-Inspired Gesture-Based Mouse Control using Computer Vision**
 
-Control your computer’s mouse using natural hand gestures in real time — no hardware beyond a webcam required.
+Control your computer’s mouse using natural hand gestures in real time, no hardware beyond a webcam required.
 
 This project explores **gesture-based human–computer interaction (HCI)** by translating hand movements into full OS-level mouse control, including cursor movement, clicking, dragging, scrolling, and adaptive precision control.
 
