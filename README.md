@@ -54,7 +54,7 @@ Built entirely in **Python** using **computer vision and intelligent intent dete
 | **OpenCV** | Webcam input & visualization |
 | **MediaPipe Hands** | Real-time hand landmark tracking (21 points) |
 | **PyAutoGUI** | OS-level mouse control |
-| **Math / Geometry** | Gesture detection & smoothing |
+| **Math / Geometry (Python)** | Gesture detection, smoothing, and velocity calculations |
 | **HCI Principles** | Adaptive speed, confidence, intent modeling |
 
 ---
