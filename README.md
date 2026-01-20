@@ -1,4 +1,4 @@
-# 🖐️ Gesture Mouse Control  
+# Gesture Mouse Control  
 **AI-Inspired Gesture-Based Mouse Control using Computer Vision**
 
 Control your computer’s mouse using natural hand gestures in real time — no hardware beyond a webcam required.
@@ -9,9 +9,9 @@ Built entirely in **Python** using **computer vision and intelligent intent dete
 
 ---
 
-## 🚀 Features
+## Features
 
-### 🎯 Core Controls
+### Core Controls
 - 👉 **Index finger** — Move cursor
 - 🤏 **Pinch (tap)** — Left click
 - 🤏 **Pinch (hold)** — Drag & drop
@@ -21,7 +21,7 @@ Built entirely in **Python** using **computer vision and intelligent intent dete
 
 ---
 
-### 🧠 Intelligent Interaction (Advanced)
+### Intelligent Interaction (Advanced)
 - **Adaptive cursor speed**
   - Fast hand motion → fast cursor
   - Slow/steady motion → precision control
@@ -37,7 +37,7 @@ Built entirely in **Python** using **computer vision and intelligent intent dete
 
 ---
 
-### 📊 Live HUD
+### Live HUD
 - Current intent (MOVE / SCROLL / CLICK / DRAG / IDLE)
 - Gesture confidence bar
 - FPS (performance monitoring)
@@ -46,7 +46,7 @@ Built entirely in **Python** using **computer vision and intelligent intent dete
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Technology | Purpose |
 |----------|--------|
@@ -59,7 +59,7 @@ Built entirely in **Python** using **computer vision and intelligent intent dete
 
 ---
 
-## 🧩 How It Works (High Level)
+## How It Works (High Level)
 
 1. Webcam feed captured using OpenCV  
 2. MediaPipe detects and tracks hand landmarks in real time  
@@ -76,14 +76,14 @@ Built entirely in **Python** using **computer vision and intelligent intent dete
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/pakindipe/GestureMouse.git
 cd GestureMouse
 ```
-2️⃣ Create & activate virtual environment
+### 2️⃣ Create & activate virtual environment
 ```bash
 python -m venv venv
 ```
@@ -91,7 +91,7 @@ Windows
 ```bash
 venv\Scripts\activate
 ```
-3️⃣ Install dependencies
+### 3️⃣ Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
@@ -99,7 +99,7 @@ If you don’t have a requirements.txt yet, install manually:
 ```bash
 pip install opencv-python mediapipe pyautogui numpy
 ```
-▶️ Run the Program
+### ▶️ Run the Program
 ```bash
 python gesture_mouse.py
 ```
@@ -107,56 +107,43 @@ Make sure your webcam is unobstructed and your hand is well-lit.
 
 ---
 
-🖥️ Hardware Notes
+## Hardware Notes
 - Works with built-in laptop webcams (tested on ROG Zephyrus G14)
 - No GPU required
 - Higher camera resolution (720p) improves tracking stability
 
-📈 Current Capabilities
+---
 
-Full mouse replacement
+## Current Capabilities
+- Full mouse replacement
+- Real-time performance (~30–60 FPS)
+- Robust against noisy gestures
+- Designed for extensibility
 
-Real-time performance (~30–60 FPS)
+---
 
-Robust against noisy gestures
+## Planned Enhancements
+- Gesture classifier using machine learning
+- Auto-calibration wizard
+- Right-click & double-click gestures
+- Per-application gesture profiles
+- Gesture analytics & heatmaps
 
-Designed for extensibility
+---
 
-🔮 Planned Enhancements
+## Key Things I Learned From Developing This Project
+- Computer vision fundamentals
+- Real-time system design
+- Human–computer interaction principles
+- Intelligent input modeling
+- Practical OS automation
 
-Gesture classifier using machine learning
+---
 
-Auto-calibration wizard
+### Author
+Philip Akindipe
 
-Right-click & double-click gestures
 
-Per-application gesture profiles
-
-Gesture analytics & heatmaps
-
-🎯 Why This Project Matters
-
-This is not just a gesture demo.
-
-It demonstrates:
-
-Computer vision fundamentals
-
-Real-time system design
-
-Human–computer interaction principles
-
-Intelligent input modeling
-
-Practical OS automation
-
-👤 Author
-
-Pakindi Pe
-
-⭐ If You Like This Project
-
-Give it a star ⭐ — it helps a lot!
 
 
 ---
