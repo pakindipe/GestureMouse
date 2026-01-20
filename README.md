@@ -84,34 +84,33 @@ git clone https://github.com/pakindipe/GestureMouse.git
 cd GestureMouse
 ```
 2️⃣ Create & activate virtual environment
+```bash
 python -m venv venv
-
-
+```
 Windows
-
+```bash
 venv\Scripts\activate
-
+```
 3️⃣ Install dependencies
+```bash
 pip install -r requirements.txt
-
-
+```
 If you don’t have a requirements.txt yet, install manually:
-
+```bash
 pip install opencv-python mediapipe pyautogui numpy
-
+```
 ▶️ Run the Program
+```bash
 python gesture_mouse.py
-
-
+```
 Make sure your webcam is unobstructed and your hand is well-lit.
 
+---
+
 🖥️ Hardware Notes
-
-Works with built-in laptop webcams (tested on ROG Zephyrus)
-
-No GPU required
-
-Higher camera resolution (720p) improves tracking stability
+- Works with built-in laptop webcams (tested on ROG Zephyrus G14)
+- No GPU required
+- Higher camera resolution (720p) improves tracking stability
 
 📈 Current Capabilities
 
